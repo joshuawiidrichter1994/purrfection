@@ -31,27 +31,38 @@ function App() {
       </div>
       <h2>SOCIALS</h2>
       <div className="section-footer">
-        <div className="socials-container">
+        <div className="social-container">
           <a
             href="https://open.spotify.com/artist/25kA7PpCncWzjXu8eUH1YM?si=zPvR_h9KR_e6UHGKfgGcfw"
-            className="social-link"
             target="_blank"
           >
-            <img src={require('./images/spotify.png')} />
+            <img
+              className="social-link"
+              src={require('./images/spotify.png')}
+            />
           </a>
+        </div>
+        <div className="social-container">
           <a
             href="https://www.youtube.com/channel/UCoILuJsgXlw8xKLViNAtkpg"
-            className="social-link"
             target="_blank"
           >
-            <img src={require('./images/youtube.png')} />
+            <img
+              className="social-link"
+              src={require('./images/youtube.png')}
+            />
           </a>
+        </div>
+
+        <div className="social-container">
           <a
             href="https://www.instagram.com/purrfection.artist/"
-            className="social-link"
             target="_blank"
           >
-            <img src={require('./images/instagram.png')} />
+            <img
+              className="social-link"
+              src={require('./images/instagram.png')}
+            />
           </a>
         </div>
       </div>
