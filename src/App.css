@@ -20,6 +20,10 @@ h2 {
   letter-spacing: 0.8rem;
 }
 
+.section-main {
+  width: 100%;
+}
+
 .section-releases {
   display: flex;
   align-items: center;
@@ -56,4 +60,37 @@ h2 {
 
 .social-link {
   margin:35px;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 650px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+  .background-img {
+    width: 250px;
+  }
+
+  .section-releases {
+    height: 100px;
+    padding: 0;
+  }
+
+  .release-img {
+    height: 50px;
+    width: auto;
+  }
+
+  .image-container {
+    height: 50px;
+  }
+
+  .section-footer {
+    bottom: 0;
+  }
 }
