@@ -41,7 +41,8 @@ h2 {
 
 .release-img {
   height: 100%;
-  width: auto;;
+  width: auto;
+  border-radius: 3px;
 }
 
 .description-container {
@@ -107,6 +108,7 @@ h2 {
   .release-img {
     height: 50px;
     width: auto;
+    border-radius: 1px !important;
   }
 
   .image-container {
