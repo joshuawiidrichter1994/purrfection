@@ -4,16 +4,52 @@
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
+h1 {
+  color: white;
+  letter-spacing: 1rem;
+}
+
+h2 {
+  margin-top: 80px;
+  color: white;
+  letter-spacing: 0.8rem;
+}
+
+.section-releases {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px 50px 25px 50px;
+  height: 200px;
+}
+
+.image-container {
+  height:180px;
+}
+
+.release-img {
+  height: 100%;
+  width: auto;;
+}
+
+.text{
+  color: white;
+  letter-spacing: 0.2rem;
+}
+
 .background-img {
   height: 100%;
   width: auto;
 }
 
-h1 {
-  color: white;
-  letter-spacing: 0.8rem;
+.socials-container {
+  padding-bottom: 25px;
 }
 
 .social-link {
-  margin:10px;
+  margin:35px;
 }
