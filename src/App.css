@@ -9,12 +9,13 @@ a {
 }
 
 h1 {
+  margin: 35px 0 35px 0;
   color: white;
   letter-spacing: 1rem;
 }
 
 h2 {
-  margin-top: 80px;
+  margin: 50px 0 50px 0;
   color: white;
   letter-spacing: 0.8rem;
 }
@@ -23,8 +24,11 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border: solid;
+  border-color: white;
   margin: 25px 50px 25px 50px;
   height: 200px;
+  padding: 20px;
 }
 
 .image-container {

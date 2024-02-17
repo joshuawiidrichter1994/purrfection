@@ -46,6 +46,13 @@ function App() {
           >
             <img src={require('./images/youtube.png')} />
           </a>
+          <a
+            href="https://www.instagram.com/purrfection.artist/"
+            className="social-link"
+            target="_blank"
+          >
+            <img src={require('./images/instagram.png')} />
+          </a>
         </div>
       </div>
     </div>
