@@ -7,5 +7,5 @@ To run:
 
 - clone repo
 - navigate to directory
-- run npm i
+- npm i
 - npm start
